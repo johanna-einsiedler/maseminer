@@ -1,0 +1,18 @@
+[project]
+name = "paperlens"
+version = "0.1.0"
+description = "AI-powered data extraction and labelling for academic papers, with a MASEMiner workflow for psychometric / structural-equation studies."
+requires-python = ">=3.11"
+dependencies = [
+    "fastapi>=0.115.0",
+    "uvicorn[standard]>=0.32.0",
+    "python-multipart>=0.0.20",
+    "openai>=2.31.0",
+    "pymupdf>=1.27.2.2",
+    "google-genai>=1.10.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0",
+]
