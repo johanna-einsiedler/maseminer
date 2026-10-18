@@ -1,5 +1,7 @@
 # Metalens · MASEMiner
 
+> **The MASEMiner distribution** of the Metalens engine, kept in step with [johanna-einsiedler/metalens](https://github.com/johanna-einsiedler/metalens) by its release workflow. It ships the MASEMiner presets only; the general presets live in the engine repository, and any preset placed in `<data>/presets/` is loaded alongside the built-in ones.
+
 One engine, two products, for turning research papers into structured, verifiable data.
 
 - **Metalens** ([metalens.tech](https://metalens.tech)) — the general platform:
